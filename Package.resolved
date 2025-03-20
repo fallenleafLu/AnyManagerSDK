@@ -56,15 +56,6 @@
       }
     },
     {
-      "identity" : "ogurymediationgooglemobileads",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/AnyMindG/OguryMediationGoogleMobileAds.git",
-      "state" : {
-        "revision" : "7d0c8c6b193c14af5ca0a11ab34ac4ae1ac4e3d1",
-        "version" : "1.0.0"
-      }
-    },
-    {
       "identity" : "swift-package-manager-google-mobile-ads",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/googleads/swift-package-manager-google-mobile-ads.git",

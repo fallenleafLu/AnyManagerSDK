@@ -15,7 +15,6 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/AnyMindG/AdSDKs.git", from: "1.4.0"),
-        .package(url: "https://github.com/AnyMindG/OguryMediationGoogleMobileAds.git", from: "1.0.0"),
         .package(url: "https://github.com/AnyMindG/GoogleMobileAdsMediationMintegral.git", from: "1.1.0"),
         .package(url: "https://github.com/AnyMindG/IASDKCore.git", from: "1.3.0"),
         .package(url: "https://github.com/AnyMindG/GoogleMobileAdsMediationFyber.git", from: "1.3.0"),
@@ -41,12 +40,6 @@ let package = Package(
                 .product(name: "GoogleMobileAdsMediationAppLovin", package: "AdSDKs"),
                 .product(name: "VungleAds", package: "AdSDKs"),
                 .product(name: "GoogleMobileAdsMediationVungle", package: "AdSDKs"),
-                
-                .product(name: "OguryAds", package: "AdSDKs"),
-                .product(name: "OMSDK_Ogury", package: "AdSDKs"),
-                .product(name: "OguryCore", package: "AdSDKs"),
-                .product(name: "OgurySdk", package: "AdSDKs"),
-                .product(name: "OguryMediationGoogleMobileAds", package: "OguryMediationGoogleMobileAds"),
                 
                 .product(name: "ChartboostSDK", package: "AdSDKs"),
                 .product(name: "GoogleMobileAdsMediationChartboost", package: "AdSDKs"),
